@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(/unitConverter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+main {
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: Inter;
+    color: white;
+}
+
+/* Typography */
+h1 {
+    font-size: 28px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.conv-label {
+    font-size: 20px;
+}
+
+.output {
+    font-size: 14px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Layout */
+
+.head {
+    background: #6943FF;
+    padding: 10px;
+}
+
+.buttom {
+    background: #1F2937;
+    padding: 10px;
+}
+
+.cards {
+    background: #273549;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 25px;
+}
+
+#num-input {
+    width: 100px;
+    height: 100px;
+    background: #6943FF;
+    font-size: 58px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 25px;
+    color: white;
+    font-family: Inter;
+}
+
